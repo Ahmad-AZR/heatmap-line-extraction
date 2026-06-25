@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+
+title: Heatmap Line Extraction
+
+message: >
+  If you use this package,
+  please cite it.
+
+authors:
+  - family-names: Azizpour
+    given-names: Ahmad
+
+version: 1.0.0

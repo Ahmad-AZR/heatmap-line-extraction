@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heatmap-line-extraction"
+version = "1.0.0"
+description = "Extract quantitative line profiles from scientific heatmap images"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  {name = "Ahmad Azizpour"}
+]
+
+license = {text = "MIT"}
+
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "opencv-python>=4.8",
+  "pillow>=10.0"
+]
+
+keywords = [
+  "heatmap",
+  "image-processing",
+  "scientific-visualization",
+  "data-extraction",
+  "materials-science",
+  "opencv"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
