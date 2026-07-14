@@ -5,6 +5,8 @@ Python package for extracting quantitative data from scientific heatmap images.
 ## Features
 
 - Automatic heatmap detection
+- Optional manual ROI selection
+- Automatic fallback to manual selection if detection fails
 - Automatic colorbar detection
 - Heatmap reconstruction
 - Vertical profiles
